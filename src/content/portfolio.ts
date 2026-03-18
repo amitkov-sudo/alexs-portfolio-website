@@ -223,7 +223,7 @@ export const TIMELINE: TimelineItem[] = [
   ],
 },
   {
-    title: "Quantum Computing • UC Merced (M.S. in Computational Chemistry)",
+    title: "Quantum Computing • UC Merced (MS in Computational Chemistry)",
     org: "University of California, Merced",
     timeframe: "2024 — 2026",
     icon: GraduationCap,
