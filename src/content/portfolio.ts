@@ -199,7 +199,7 @@ export const SKILLS: SkillGroup[] = [
   },
   {
     label: "Tools",
-    items: ["Git", "PostgreSQL", "dbt", "Airflow concepts", "Jupyter", "FastAPI", "Kafka", "Spring Boot", "Hybernate"],
+    items: ["Git", "PostgreSQL", "dbt", "Airflow concepts", "Jupyter", "FastAPI", "Kafka", "Spring Boot", "Hybernate", "Qiskit"],
   },
 ];
 
@@ -227,14 +227,15 @@ export const TIMELINE: TimelineItem[] = [
     ],
   },
   {
-    title: "AI • Monash University (MCS in Artificial Intelligence)",
-    org: "Monash University",
-    timeframe: "2026 — 2028",
-    icon: Database,
-    bullets: [
-      "Applied AI/ML fundamentals with an emphasis on practical implementation and evaluation.",
-      "Built projects that translate theory into working systems and reproducible experiments.",
-    ],
-  },
+  title: "AI • Monash University (MCS in Artificial Intelligence)",
+  org: "Monash University",
+  timeframe: "2026 — 2028",
+  icon: Database,
+  bullets: [
+    "Incoming MCS student in Artificial Intelligence at Monash University.",
+    "Learning machine learning, deep learning, and NLP to build intelligent systems.",
+    "Developing skills in Python, optimization, and scalable AI system design.",
+  ],
+},
 ];
 
