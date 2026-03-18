@@ -15,12 +15,11 @@ export function About() {
         <div className="grid gap-4 lg:grid-cols-3">
           <Card className="p-6 lg:col-span-2">
             <p className="text-sm leading-7 text-white/75">
-              I’m a technical professional transitioning from quantum computing
-              and AI research into industry roles in software engineering, ML
-              engineering, and data engineering. My strength is taking
-              research-grade ideas and turning them into production-minded
-              systems: clear interfaces, measurable outcomes, and maintainable
-              code.
+              I’m building at the intersection of software engineering, machine learning, AI,
+              and data engineering, with a focus on turning complex ideas into practical,
+              production-ready solutions. My strength is taking research-grade ideas and turning 
+              them into production-minded systems: clear interfaces, measurable outcomes, 
+              and reliable code.
             </p>
             <p className="mt-4 text-sm leading-7 text-white/75">
               I care about correctness and reliability (tests, data contracts,
