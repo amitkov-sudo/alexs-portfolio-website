@@ -5,7 +5,6 @@ import {
   GraduationCap,
   Linkedin,
   Mail,
-  Globe,
   Server,
   Sparkles,
   Wand2,
