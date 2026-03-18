@@ -5,9 +5,7 @@ import {
   GraduationCap,
   Linkedin,
   Mail,
-  Server,
   Sparkles,
-  Wand2,
 } from "lucide-react";
 
 export type SocialLink = {
