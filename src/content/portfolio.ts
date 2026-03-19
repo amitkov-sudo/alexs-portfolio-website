@@ -214,7 +214,7 @@ export const TIMELINE: TimelineItem[] = [
   {
   title: "AI • Monash University (MCS in Artificial Intelligence)",
   org: "Monash University",
-  timeframe: "2026 — 2028",
+  timeframe: "2026 — Present",
   icon: Database,
   bullets: [
     "Incoming MCS student in Artificial Intelligence at Monash University.",
