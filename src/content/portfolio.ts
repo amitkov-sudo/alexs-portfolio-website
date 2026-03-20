@@ -63,42 +63,47 @@ export const SOCIALS: SocialLink[] = [
 
 export const PROJECTS: Project[] = [
   {
-    slug: "amcast-ai",
-    title: "RailCast AI — California Transit Delay Prediction (In Progress)",
-    description:
-      "End-to-end machine learning system for predicting train delays using historical rail data, combining data pipelines, feature engineering, and API-based inference.",
-    stack: [
-      "Python",
-      "pandas",
-      "scikit-learn",
-      "FastAPI",
-      "PyTorch",
-      "MLflow",
-      "Spring API",
-      "Java",
-      "JavaScript",
-      "PostgreSQL",
-      "PyTorch",
-      "Airflow",
-      "Docker",
-      "Time-series",
-    ],
-    impact:
-      "Intends to highlight practical ML and data engineering skills by tackling real-world transportation reliability, with a focus on pipeline design, feature construction, and deployable prediction services.",
-    links: {
-      github: {
-        label: "GitHub",
-        href: "https://github.com/amitkov-sudo/amcast-ai",
-      },
+  slug: "amcast-ai",
+  title: "AmCast AI — BART Transit Delay Prediction System (In Progress)",
+  description:
+    "Production-style ML and data engineering system for predicting BART train delays using GTFS static and real-time transit data, with a focus on pipeline design, data modeling, and API-based inference.",
+
+  stack: [
+    "Python",
+    "pandas",
+    "scikit-learn",
+    "FastAPI",
+    "PostgreSQL",
+    "SQL",
+    "Airflow",
+    "Docker",
+    "Java",
+    "JavaScript",
+    "Time-series",
+    "GTFS",
+  ],
+
+  impact:
+    "Demonstrates end-to-end ownership of a real-world ML system: from GTFS data modeling and pipeline orchestration to feature engineering and deployable prediction APIs, focused on transit reliability and delay forecasting.",
+
+  links: {
+    github: {
+      label: "GitHub",
+      href: "https://github.com/amitkov-sudo/amcast-ai",
     },
-    details: [
-      "Building a data pipeline to ingest, clean, and store historical Amtrak delay and route data.",
-      "Engineering temporal and route-level features to capture patterns in delays.",
-      "Developing baseline and iterative ML models for delay prediction.",
-      "Designing a FastAPI service for serving predictions to downstream applications.",
-      "Planned extensions include automated retraining, monitoring, and real-time data ingestion.",
-    ],
   },
+
+  details: [
+    "Designing a relational PostgreSQL schema based on GTFS static data (stops, routes, trips, stop_times) for BART transit.",
+    "Building ingestion pipelines for GTFS static and planned real-time feeds, with idempotent loading and schema versioning.",
+    "Transforming schedule and stop-level data into structured delay signals for supervised learning.",
+    "Engineering temporal and sequence-based features (stop order, time-of-day, route direction, headsign patterns).",
+    "Developing baseline ML models (regression/classification) to predict delay likelihood and magnitude.",
+    "Implementing a FastAPI service to expose prediction endpoints for downstream applications.",
+    "Containerizing the system with Docker for reproducibility and deployment readiness.",
+    "Planning orchestration with Airflow for scheduled data updates, retraining, and pipeline monitoring.",
+  ],
+}
   {
     slug: "scalable-churn-prediction",
     title: "RetentionIQ — Churn Prediction (MLOps-style)",
