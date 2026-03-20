@@ -64,7 +64,7 @@ export const SOCIALS: SocialLink[] = [
 export const PROJECTS: Project[] = [
   {
   slug: "amcast-ai",
-  title: "AmCast AI — BART Transit Delay Prediction System (Current)",
+  title: "RailCast AI — BART Transit Delay Prediction System (Current)",
   description:
     "Production-style ML and data engineering system for predicting BART train delays using GTFS static and real-time transit data, with a focus on pipeline design, data modeling, and API-based inference.",
 
@@ -103,7 +103,7 @@ export const PROJECTS: Project[] = [
     "Containerizing the system with Docker for reproducibility and deployment readiness.",
     "Planning orchestration with Airflow for scheduled data updates, retraining, and pipeline monitoring.",
   ],
-}
+},
   {
     slug: "scalable-churn-prediction",
     title: "RetentionIQ — Churn Prediction (MLOps-style)",
